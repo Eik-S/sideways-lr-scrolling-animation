@@ -1,0 +1,8 @@
+# github.com/org/.github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    schedule:
+      interval: "weekly"
+    allow:
+      - dependency-type: "production"
